@@ -1,0 +1,82 @@
+    1  ls
+    2  ping www.google.com
+    3  ping 116.228.89.173
+    4  ping news.163.com
+    5  ping www.baidu.com
+    6  ping awinic.com
+    7  cd /etc/yum.repos.d/
+    8  ls
+    9  yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   10  curl -0 https://copr.fedorainfracloud.org/coprs/librehat/shadowsocks/repo/epel-7/librehat-shadowsocks-epel-7.repo
+   11  ls
+   12  yum install -y shadowsocks-libev
+   13  ifconfig
+   14  yum install tiger-vnc
+   15  ll
+   16  history
+   17  curl -O https://copr.fedorainfracloud.org/coprs/librehat/shadowsocks/repo/epel-7/librehat-shadowsocks-epel-7.repo
+   18  yum install -y shadowsocks-libev
+   19  ss-server
+   20  cd /etc/shadowsocks-libev/
+   21  ls
+   22  yum install vim -y
+   23  ifconfig
+   24  vim config.json 
+   25  ls
+   26  firewall-cmd --permanent --add-port=10247/tcp
+   27  firewall-cmd --permanent --add-port=10247/udp
+   28  firewall-cmd --reload
+   29  systemctl start shadowsocks-libev
+   30  systemctl status shadowsocks-libev
+   31  date
+   32  ss-server
+   33  ls
+   34  vim config.json 
+   35  ss-server
+   36  ls
+   37  systemctl start shadowsocks-libev
+   38  systemctl status shadowsocks-libev
+   39  ping www.youtube.com
+   40  ls
+   41  history
+   42  ping www.youtube.com
+   43  ping awinic.com
+   44  ls
+   45  ll
+   46  vim config.json 
+   47  ls
+   48  history
+   49  firewall-cmd --permanent --add-port=10147/tcp
+   50  firewall-cmd --permanent --add-port=10147/udp
+   51  systemctl start firewalld
+   52  systemctl status firewalld
+   53  firewall-cmd --state
+   54  firewall-cmd --zone=public --list-ports/--list-all
+   55  firewall-cmd --zone=public --list-ports
+   56  firewall-cmd --permanent --add-port=10147/tcp
+   57  firewall-cmd --permanent --add-port=10147/udp
+   58  firewall-cmd --zone=public --list-ports
+   59  firewall-cmd --zone=public --list-all
+   60  history
+   61  systemctl restart shadowsocks-libev
+   62  ifconfig
+   63  systemctl firewalld stop
+   64  systemctl stop firewalld
+   65  ls
+   66  cd
+   67  ls
+   68  pwd
+   69  mkdir tmp
+   70  which git
+   71  yum install git
+   72  git clone https://github.com/coconutsyhd/ss
+   73  ls
+   74  ll -a
+   75  ls
+   76  cd ss
+   77  ls
+   78  ll -a
+   79  history
+   80  history | more
+   81  touch cmd.txt
+   82  history >> cmd.txt
